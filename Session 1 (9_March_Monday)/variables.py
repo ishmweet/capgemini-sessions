@@ -29,14 +29,14 @@ c = 30
 
 # Printing memory addresses of variables
 
-print("Value of a:", a)
-print("Address of a:", id(a))
+print(f"Value of a: {a}")
+print(f"Address of a: {id(a)}")
 
-print("Value of b:", b)
-print("Address of b:", id(b))
+print(f"Value of b: {b}")
+print(f"Address of b: {id(b)}")
 
-print("Value of c:", c)
-print("Address of c:", id(c))
+print(f"Value of c: {c}")
+print(f"Address of c: {id(c)}")
 
 
 # ============================================
@@ -47,9 +47,9 @@ print("Address of c:", id(c))
 
 a, b, c = 10, 20, 30
 
-print("Address of a:", id(a))
-print("Address of b:", id(b))
-print("Address of c:", id(c))
+print(f"Address of a: {id(a)}")
+print(f"Address of b: {id(b)}")
+print(f"Address of c: {id(c)}")
 
 
 # ============================================

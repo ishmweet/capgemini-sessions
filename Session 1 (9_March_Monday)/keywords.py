@@ -20,7 +20,7 @@
 
 import keyword
 
-print(keyword.kwlist)
+print(f"List of Python keywords: {keyword.kwlist}")
 
 
 # ============================================
@@ -29,7 +29,7 @@ print(keyword.kwlist)
 # The total number of keywords in Python is
 # usually around 35 (depending on Python version).
 
-print("Total keywords:", len(keyword.kwlist))
+print(f"Total keywords: {len(keyword.kwlist)}")
 
 
 # ============================================
@@ -40,15 +40,15 @@ print("Total keywords:", len(keyword.kwlist))
 a = True
 b = False
 
-print(a)
-print(b)
+print(f"Value of a: {a}")
+print(f"Value of b: {b}")
 
 
 # None keyword
 # None represents absence of value (similar to null)
 
 c = None
-print(c)
+print(f"Value of c: {c}")
 
 
 # ============================================
